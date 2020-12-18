@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.leftContainer {
+  flex: 1;
+  height: 100%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.ant-tree {
+  background-color: transparent;
+}
+
+.rightContainer {
+  flex: 1;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.text {
+  font-size: 14px;
+  color: #333;
+}
+
+.btn {
+  margin-left: 10px;
+}
